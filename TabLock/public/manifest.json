@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Tab Lock",
+    "version": "1.0",
+    "description": "A Chrome extension that redirects users to motivation page to prevent procrastination and imporve foucs.",
+    "action": {
+        "redirect_page": "motvation.html"
+    },
+    "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "permissions": ["storage", "activateTab", "scripting"]
+}
